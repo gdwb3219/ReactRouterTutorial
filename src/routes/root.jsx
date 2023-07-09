@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {
   Form,
   NavLink,
@@ -7,9 +6,6 @@ import {
   useLoaderData,
   useNavigation,
 } from 'react-router-dom';
-=======
-import { Form, Link, Outlet, redirect, useLoaderData } from 'react-router-dom';
->>>>>>> ea1eddf3ddc27a865009d93615458f761d8cee68
 import { getContacts, createContact } from '../contacts';
 
 export async function action() {
